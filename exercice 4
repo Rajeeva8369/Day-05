@@ -1,11 +1,3 @@
-JSS :
-
-window.onload = function() {
-   
-    let priceElement = document.getElementById('price');
-    
-  
-    if (priceElement) {
-        priceElement.textContent = "0 €";
-    }
-};
+let exclusivElementById = document.getElementById("tag")
+if (exclusivElementById) {
+ exclusivElementById.remove();
