@@ -6,6 +6,6 @@ window.onload = function() {
     
   
     if (priceElement) {
-        priceElement.textContent = "0 €";  // Replace the content with "0 €"
+        priceElement.textContent = "0 €";
     }
 };
