@@ -1,0 +1,11 @@
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const addToCartButton = document.querySelector('.cart-btn');
+    if (addToCartButton) {
+   addToCartButton.addEventListener('click', function(event) {
+            event.preventDefault();
+            alert('Thanks!');
+        });
+    }
+});
