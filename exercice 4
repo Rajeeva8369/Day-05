@@ -1,0 +1,12 @@
+JSS :
+
+// Wait for the DOM to fully load before running the script
+window.onload = function() {
+    // Get the element by its ID (assuming the element has an id="price")
+    let priceElement = document.getElementById('price');
+    
+    // Check if the element exists before trying to change its content
+    if (priceElement) {
+        priceElement.textContent = "0 €";  // Replace the content with "0 €"
+    }
+};
