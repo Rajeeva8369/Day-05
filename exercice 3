@@ -1,16 +1,13 @@
 
-
-// Wait for the DOM to fully load
 document.addEventListener("DOMContentLoaded", function() {
-    // Select all paragraph elements within the description div
+
     const paragraphs = document.querySelectorAll('#description p');
 
-    // Iterate through each paragraph
     paragraphs.forEach(paragraph => {
-        // Create a new text node with the desired message
+    
         const newText = document.createTextNode(' Now featuring a headphone jack!');
         
-        // Append the new text node after the existing paragraph content
+
         paragraph.appendChild(newText);
     });
 });
